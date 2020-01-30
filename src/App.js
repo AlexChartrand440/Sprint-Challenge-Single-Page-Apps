@@ -1,11 +1,13 @@
 import React from "react";
-import Header from "./components/Header.js";
-
+import Nav from "./components/Navigation";
+import Welcome from "./components/WelcomePage"
 
 export default function App() {
   return (
     <main>
-      <Header />
+      {/* <Header /> */}
+      <Nav />
+      <Welcome />
     </main>
   );
 }
